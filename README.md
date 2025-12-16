@@ -1,17 +1,25 @@
-# Лабораторна робота: Управління планетами
+# Lab 1: Introduction to OOP Classes
 
-Цей проєкт реалізує консольну програму для створення та керування списком планет.  
-Програма дозволяє користувачу взаємодіяти з меню та виконувати різні дії над об'єктами класу **Planet**.
+## Description
+This project demonstrates fundamental Object-Oriented Programming principles in C#, focusing on abstraction, encapsulation, and object management.
 
-## Функціонал
-- Додавання планети вручну або випадковим чином.
-- Перегляд усіх планет у табличному вигляді.
-- Пошук планет за іменем або типом.
-- Обчислення сили тяжіння для кожної планети.
-- Видалення планет за іменем, типом або порядковим номером.
-- Обмеження максимальної кількості планет у системі (за бажанням користувача).
+## Objectives
+* Analyze a domain and define class structures.
+* Implement classes with private fields, public properties, and behavioral methods.
+* Manage object lifecycles in a console application.
 
-## Використані технології
-- Мова програмування: **C# (.NET)**
-- Структури даних: **List**
-- Консольний інтерфейс користувача
+## Implementation
+**Domain:** Astronomy
+**Class:** `Planet`
+
+The application allows the user to manage a collection of `Planet` objects with specific constraints and validation.
+
+### Key Features
+* **Encapsulation:** usage of private fields, public getters/setters, and Enums.
+* **Validation:** Input verification for all object characteristics.
+* **Interactive Menu:**
+    * Add new object
+    * View all objects
+    * Find specific object
+    * Demonstrate object behavior
+    * Delete object
